@@ -1,0 +1,23 @@
+# Regra genérica para qualquer pasta Build (tenta cobrir tudo)
+*/Build/*.data.unityweb
+  Content-Encoding: br
+
+*/Build/*.wasm.unityweb
+  Content-Encoding: br
+  Content-Type: application/wasm
+
+*/Build/*.js.unityweb
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+# Regra ESPECÍFICA para o caminho que apareceu no seu log
+/games/personal/Build/*.data.unityweb
+  Content-Encoding: br
+
+/games/personal/Build/*.wasm.unityweb
+  Content-Encoding: br
+  Content-Type: application/wasm
+
+/games/personal/Build/*.js.unityweb
+  Content-Encoding: br
+  Content-Type: application/javascript
