@@ -53,13 +53,13 @@ export default function Main() {
               </p>
 
               <div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Camila Santos</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Camila Santos</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('pong_part_1_role')}</p>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/camilasantos17/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/camilasantos17/</a>
               </div>
 
               <div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Lucas Targa</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Lucas Targa</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('pong_part_2_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucasltarga/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/lucasltarga/</a></p>
               </div>

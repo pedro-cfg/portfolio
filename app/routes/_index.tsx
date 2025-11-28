@@ -50,7 +50,7 @@ export default function Main() {
 
             <div className="absolute top-20 bottom-0 flex flex-col w-full snap-y snap-mandatory overflow-y-auto">
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("first")}} id="first">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("first")}} id="first">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={paper} alt="Papers" className="h-full w-full object-cover opacity-20 grayscale"/>
@@ -105,7 +105,7 @@ export default function Main() {
                 </div>
 
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("me")}} id="me">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("me")}} id="me">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={code} alt="Code" className="h-full w-full object-cover opacity-5 grayscale"/>
@@ -212,7 +212,7 @@ export default function Main() {
                     </div>
                 </div>
         
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("utfpr")}} id="utfpr" >
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("utfpr")}} id="utfpr" >
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={utfpr} alt="UTFPR" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -254,7 +254,7 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("games")}} id="games">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("games")}} id="games">
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={games} alt="Games Room" className="h-full w-full object-cover opacity-10 grayscale"/>
                     </div>
@@ -295,7 +295,7 @@ export default function Main() {
 
                 </div>
                 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("inesc")}} id="inesc">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("inesc")}} id="inesc">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={inesc} alt="INESC" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -337,7 +337,7 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("smart")}} id="smart">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("smart")}} id="smart">
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={microsoft} alt="Cube" className="h-full w-full object-cover opacity-10 grayscale"/>
                     </div>
@@ -378,7 +378,7 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("workshop")}} id="workshop">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("workshop")}} id="workshop">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={arm} alt="Robotic Arm" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -420,7 +420,7 @@ export default function Main() {
 
                 </div>
                 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("systems")}} id="systems">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("systems")}} id="systems">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={laptop} alt="Laptop" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -462,7 +462,7 @@ export default function Main() {
 
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("tcc")}} id="tcc">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("tcc")}} id="tcc">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={irrigation} alt="Irrigation" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -504,7 +504,7 @@ export default function Main() {
 
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("certif")}} id="certif">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("certif")}} id="certif">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={certificate} alt="Certificate" className="h-full w-full object-cover opacity-10 grayscale"/>
@@ -540,7 +540,7 @@ export default function Main() {
 
                 </div>
 
-                <div className="snap-center w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160" style={{backgroundColor: colors.get("other")}} id="other">
+                <div className="snap-center snap-always w-full basis-[100%] flex-shrink-0 min-w-80 min-h-110 md:min-h-130 lg:min-h-160 transform-gpu" style={{backgroundColor: colors.get("other")}} id="other">
 
                     <div className="absolute w-full h-full min-w-80 min-h-110 md:min-h-130 lg:min-h-160">
                         <img src={last} alt="Tiles" className="h-full w-full object-cover opacity-30 grayscale"/>

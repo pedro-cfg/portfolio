@@ -81,7 +81,7 @@ export default function Main() {
               </p>
 
 							<div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Anna Caroline Sousa</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Anna Caroline Sousa</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('tcc_partner_1_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-caroline-de-oliveira-sousa/" className="text-[#2CAE71] underline">https://www.linkedin.com/in/anna-caroline-de-oliveira-sousa/</a></p>
                 <p><a target="_blank" rel="noopener noreferrer" href="mailto:annacaroline@alunos.utfpr.edu.br" className="text-[#2CAE71] underline">annacaroline@alunos.utfpr.edu.br</a></p>

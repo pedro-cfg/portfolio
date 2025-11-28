@@ -45,7 +45,7 @@ export default function Main() {
               {t('smart_research_desc_1')}<strong>{t('smart_research_strong_1')}</strong>{t('smart_research_desc_2')}
             </p>
             
-            <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify pb-20 flex-shrink-0 italic text-gray-700">
+            <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify pb-20 flex-shrink-0 italic text-gray-700 dark:text-gray-400">
               {t('smart_footer_desc')}<strong>{t('smart_footer_strong_1')}</strong>{t('smart_footer_desc_2')}<strong>{t('smart_footer_strong_2')}</strong>{t('smart_footer_desc_3')}
             </p>
 

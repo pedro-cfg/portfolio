@@ -77,28 +77,28 @@ export default function Main() {
               </p>
 
 							<div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Anna Caroline Sousa</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Anna Caroline Sousa</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('safe_part_1_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-caroline-de-oliveira-sousa/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/anna-caroline-de-oliveira-sousa/</a></p>
                 <p><a target="_blank" rel="noopener noreferrer" href="mailto:annacaroline@alunos.utfpr.edu.br" className="text-[#A12CAE] underline">annacaroline@alunos.utfpr.edu.br</a></p>
               </div>
 
  							<div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Caio Andrade</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Caio Andrade</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('safe_part_2_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/caio-andrade98/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/caio-andrade98/</a></p>
                 <p><a target="_blank" rel="noopener noreferrer" href="mailto:caiorocha@alunos.utfpr.edu.br" className="text-[#A12CAE] underline">caiorocha@alunos.utfpr.edu.br</a></p>
               </div>             
               
 							<div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Eduardo Soviersovski</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Eduardo Soviersovski</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('safe_part_3_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eduardo-soviersovski/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/eduardo-soviersovski/</a></p>
                 <p><a target="_blank" rel="noopener noreferrer" href="mailto:edusov@alunos.edu.com.br" className="text-[#A12CAE] underline">edusov@alunos.edu.com.br</a></p>
               </div>
 
 							<div className="mb-5 bg-gray-100 p-3 rounded">
-                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Mateus Marodim</p>
+                <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Mateus Marodim</p>
                 <p className="text-[14px] md:text-[18px] text-gray-700">{t('safe_part_4_role')}</p>
 								<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mateusmarodim/" className="text-[#A12CAE] underline">https://www.linkedin.com/in/mateusmarodim/</a></p>
                 <p><a target="_blank" rel="noopener noreferrer" href="mailto:marodim@alunos.utfpr.edu.br" className="text-[#A12CAE] underline">marodim@alunos.utfpr.edu.br</a></p>

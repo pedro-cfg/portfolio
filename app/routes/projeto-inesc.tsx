@@ -18,7 +18,7 @@ export default function Main() {
           <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify mb-4">
             {t('inesc_desc_1')}
           </p>
-          <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify mb-8 italic text-gray-700">
+          <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify mb-8 italic text-gray-700 dark:text-gray-400">
             {t('inesc_desc_2')}
           </p>
 
@@ -66,13 +66,13 @@ export default function Main() {
             </p>
 
             <div className="mb-5 bg-gray-100 p-3 rounded">
-              <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Marcos Eduardo Pivaro Monteiro</p>
+              <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Marcos Eduardo Pivaro Monteiro</p>
               <p className="text-[14px] md:text-[18px] text-gray-700">{t('inesc_role_1')}</p>
               <a target="_blank" rel="noopener noreferrer" href="mailto:marcose@utfpr.edu.br" className="text-[#2CAE3B] underline">marcose@utfpr.edu.br</a>
             </div>
 
             <div className="mb-5 bg-gray-100 p-3 rounded">
-              <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Leonardo Braga de Cristo</p>
+              <p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Leonardo Braga de Cristo</p>
               <p className="text-[14px] md:text-[18px] text-gray-700">{t('inesc_role_2')}</p>
               <a target="_blank" rel="noopener noreferrer" href="mailto:cristo@alunos.utfpr.edu.br" className="text-[#2CAE3B] underline">cristo@alunos.utfpr.edu.br</a>
             </div>

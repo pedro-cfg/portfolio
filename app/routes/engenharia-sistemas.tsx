@@ -107,7 +107,7 @@ export default function Main() {
 
           <div className="flex flex-col items-center my-8">
             <img src="/eap.png" alt="Estrutura Analítica do Projeto" className="w-full max-w-3xl border border-gray-300 rounded-lg shadow-md" />
-            <span className="text-sm text-gray-600 mt-2">{t('sys_fig_1')}</span>
+            <span className="text-sm text-gray-600 mt-2 dark:text-gray-400">{t('sys_fig_1')}</span>
           </div>
 
           <p className="text-[16px] md:text-[20px] lg:text-[22px] text-justify mb-4">

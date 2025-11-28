@@ -78,7 +78,7 @@ export default function Miauventuras() {
 						</p>
 
 						<div className="mb-5 bg-gray-100 p-3 rounded">
-							<p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold">Anna Carolina Ravazzi</p>
+							<p className="text-[16px] md:text-[20px] lg:text-[22px] font-bold dark:text-gray-800">Anna Carolina Ravazzi</p>
 							<p className="text-[14px] md:text-[18px] text-gray-700">{t('miau_credits_role')}</p>
 							<p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-carolina-ravazzi-martins-5bb177213/" className="text-[#2CAE9F] underline">LinkedIn</a></p>
 							<a target="_blank" rel="noopener noreferrer" href="https://github.com/annaravazzi" className="text-[#2CAE9F] underline">GitHub</a>

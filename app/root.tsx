@@ -29,7 +29,33 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Elms+Sans:wght@300..700&display=swap",
   },
+	{
+    rel: "icon",
+    href: "/favicon.png", 
+    type: "image/png"
+  },
 ];
+
+export const meta = () => {
+  const title = "Portfólio | Pedro Guimarães";
+  const description = "Engenheiro da Computação e Pesquisador em IA. Descubra meus projetos em Web, Sistemas Embarcados e Machine Learning.";
+  const imageUrl = "https://seusite.com/social-preview.png";
+
+  return [
+    { title: title },
+    { name: "description", content: description },
+
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:image", content: imageUrl }, 
+    { property: "og:type", content: "website" },
+
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: imageUrl },
+  ];
+};
 
 function LanguageButton() {
 	const { lang, setLang } = useLanguage();
@@ -77,7 +103,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 							<LanguageButton/>			
 							<Menu>
 								<MenuButton className="items-center justify-center h-full px-2 md:px-7 lg:px-10 rounded-md hover:cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-800">
-									<HiBars3 size={50} />
+									<HiBars3 className="h-[40px] w-[40px] md:h-[50px] md:w-[50px]" />
 								</MenuButton>
 								<MenuItems anchor="bottom" className="text-center border-1 bg-white dark:bg-gray-800 border border-white rounded-xl">
 									<MenuItem>

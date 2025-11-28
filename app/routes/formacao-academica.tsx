@@ -50,192 +50,192 @@ export default function Main() {
             {t('academic_intro_5')}
           </p>
 
-          <div className="mx-auto w-full max-w-lg rounded-xl bg-black/5 mt-6 border border-gray-200">
+          <div className="mx-auto w-full max-w-lg rounded-xl bg-black/5 mt-6 border border-gray-200 dark:border-gray-600">
             
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_prog')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_prog_1')}</span>
                   <span className="font-bold">9.8</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_prog_2')}</span>
                   <span className="font-bold">8.4</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_prog_3')}</span>
                   <span className="font-bold">10.0</span>
                 </div>
               </DisclosurePanel>
             </Disclosure>
 
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_algo')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_1')}</span>
                   <span className="font-bold">9.1</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_2')}</span>
                   <span className="font-bold">9.0</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_3')}</span>
                   <span className="font-bold">9.4</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_4')}</span>
                   <span className="font-bold">8.4</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_5')}</span>
                   <span className="font-bold">8.2</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_algo_6')}</span>
                   <span className="font-bold">8.9</span>
                 </div>
               </DisclosurePanel>
             </Disclosure>
 
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_analog')}  
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_1')}</span>
                   <span className="font-bold">8.7</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_2')}</span>
                   <span className="font-bold">8.2</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_3')}</span>
                   <span className="font-bold">9.6</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_4')}</span>
                   <span className="font-bold">8.6</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_5')}</span>
                   <span className="font-bold">9.9</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_6')}</span>
                   <span className="font-bold">9.5</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_analog_7')}</span>
                   <span className="font-bold">7.0</span>
                 </div>
               </DisclosurePanel>
             </Disclosure>
 
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_digital')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_digital_1')}</span>
                   <span className="font-bold">8.2</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_digital_2')}</span>
                   <span className="font-bold">9.4</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_digital_3')}</span>
                   <span className="font-bold">7.1</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_digital_4')}</span>
                   <span className="font-bold">8.0</span>
                 </div>
               </DisclosurePanel>
             </Disclosure>
 
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_micro')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_micro_1')}</span>
                   <span className="font-bold">8.6</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_micro_2')}</span>
                   <span className="font-bold">10.0</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_micro_3')}</span>
                   <span className="font-bold">9.4</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_micro_4')}</span>
                   <span className="font-bold">7.7</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_micro_5')}</span>
                   <span className="font-bold">7.8</span>
                 </div>
               </DisclosurePanel>
             </Disclosure>
 
-            <Disclosure as="div" className="p-2 border-b border-gray-300" defaultOpen={false}>
+            <Disclosure as="div" className="p-2 border-b border-gray-300 dark:border-gray-800" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_applied')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_1')}</span>
                   <span className="font-bold">8.1</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_2')}</span>
                   <span className="font-bold">8.0</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_3')}</span>
                   <span className="font-bold">9.6</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_4')}</span>
                   <span className="font-bold">8.6</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_5')}</span>
                   <span className="font-bold">9.1</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_applied_6')}</span>
                   <span className="font-bold">9.7</span>
                 </div>
@@ -244,21 +244,21 @@ export default function Main() {
 
             <Disclosure as="div" className="p-2" defaultOpen={false}>
               <DisclosureButton className="group flex w-full items-center justify-between py-2">
-                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 group-hover:text-black">
+                <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-gray-800 dark:text-gray-200 group-hover:text-black dark:group-hover:text-gray-200">
                   {t('academic_area_network')}
                 </span>
                 <HiChevronDown className="size-6 fill-gray-600 group-hover:fill-black group-data-[open]:rotate-180 transition-transform" />
               </DisclosureButton>
               <DisclosurePanel className="my-2 flex flex-col gap-2 pl-2 border-l-2 border-[#AE9B2C]">
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_network_1')}</span>
                   <span className="font-bold">8.2</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_network_2')}</span>
                   <span className="font-bold">9.9</span>
                 </div>
-                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px]">
+                <div className="text-gray-700 flex justify-between text-[14px] md:text-[18px] dark:text-gray-300">
                   <span>{t('academic_subj_network_3')}</span>
                   <span className="font-bold">10.0</span>
                 </div>
