@@ -159,6 +159,9 @@ export const translations = {
     games_intro_2: "Desta maneira, a área de desenvolvimento de jogos me despertou interesse. Tenho o sonho de um dia construir um jogo que desperte nos jogadores o que senti quando tive um videogame nas mãos pela primeira vez.",
     games_intro_3: "Nessa página, estão listados alguns projetos menores dos quais participei. Clique nos botões e seja direcionado a uma página por onde poderá jogar diretamente do navegador.",
 
+    games_attention_title: "Atenção ",
+    games_attention_body: " A funcionalidadade de jogar diretamente do navegador está disponível apenas em dispositivos que possuem teclado!",
+
     games_miau_title: "Miauventuras",
     games_miau_desc_1: "Esse jogo de plataforma simples foi desenvolvido durante a disciplina de Técnicas de Programação, no segundo período do curso, que visava ensinar aos alunos as melhores práticas da programação orientada a objetos.",
     games_miau_desc_2: "O jogo, construído em ",
@@ -699,6 +702,9 @@ export const translations = {
     games_intro_1: "Video games have always been an important part of my life. I still fondly remember my first video game console, a Super Nintendo, which gave me memories for a lifetime.",
     games_intro_2: "In this way, the game development area sparked my interest. I dream of one day building a game that awakens in players what I felt when I held a video game controller for the first time.",
     games_intro_3: "Listed on this page are some smaller projects I participated in. Click the buttons to be directed to a page where you can play directly in the browser.",
+
+    games_attention_title: "Attention",
+    games_attention_body: "The functionality to play directly from the browser is only available on devices that have a keyboard!",
 
     games_miau_title: "Miauventuras",
     games_miau_desc_1: "This simple platform game was developed during the Programming Techniques course, in the second semester, which aimed to teach students the best practices of object-oriented programming.",

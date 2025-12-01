@@ -26,6 +26,15 @@ export default function Main() {
             {t('games_intro_3')}
           </p>
 
+          <div className="bg-red-500/60 rounded-xl p-5 mb-8 max-w-4xl mx-auto shadow-sm">
+            <h3 className="mb-3 text-[16px] md:text-[20px] lg:text-[22px] font-bold text-center">
+							{t('games_attention_title')}
+            </h3>
+            <p className="text-[12px] md:text-[15px] lg:text-[18px] text-center">
+							{t('games_attention_body')}
+            </p>
+          </div>
+
           <div className="bg-white/60 rounded-xl p-5 mb-8 border-l-4 border-[#2CAE9F] shadow-sm">
             <h3 className="mb-3 text-[20px] md:text-[28px] lg:text-[32px] font-bold text-center text-[#2CAE9F]">
               {t('games_miau_title')}
